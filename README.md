@@ -8,7 +8,7 @@ FEITO POR:
 
 ### Link de acesso 
 
-<a href="https://resonant-pot.surge.sh/" target="_blank">case-themovie.surge.sh</a>
+<a href="https://63476d1864a330284e59503d--inspiring-biscochitos-7b0680.netlify.app/" target="_blank">case-themovie.surge.sh</a>
 
 # O que funciona:
 ### Página HOME
