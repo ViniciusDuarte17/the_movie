@@ -42,5 +42,4 @@ FEITO POR:
 - [Sweetalert2](https://sweetalert2.github.io)
 - [vite](https://vitejs.devas/)
 
-# IMAGENS
 
