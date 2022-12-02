@@ -43,3 +43,20 @@ FEITO POR:
 - [vite](https://vitejs.devas/)
 
 
+### Instruções para rodar aplicação localmente
+ 
+ Clone o projeto
+
+```bash
+git clone https://github.com/ViniciusDuarte17/Desafio_shopper.git
+```
+Instale as dependências
+
+```bash
+npm install
+```
+
+```
+npm run dev 
+```
+
