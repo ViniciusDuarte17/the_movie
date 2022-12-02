@@ -48,7 +48,7 @@ FEITO POR:
  Clone o projeto
 
 ```bash
-git clone https://github.com/ViniciusDuarte17/Desafio_shopper.git
+git clone https://github.com/ViniciusDuarte17/the_movie.git
 ```
 Instale as dependências
 
