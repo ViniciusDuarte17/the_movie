@@ -55,7 +55,7 @@ Instale as dependências
 ```bash
 npm install
 ```
-
+Rodar aplicação localmente
 ```
 npm run dev 
 ```
