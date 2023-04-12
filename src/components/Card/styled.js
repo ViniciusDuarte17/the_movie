@@ -21,7 +21,6 @@ export const Content = styled.div`
     width: 100%;
     height: 80%;
     display: flex;
-
 `
 export const Title = styled.h2`
     position: absolute;
