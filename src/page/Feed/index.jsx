@@ -6,7 +6,6 @@ import { Nav } from "./Nav";
 import { GlobalStateContext } from "../../Global/GlobalStateContext";
 import { PaginationControlled } from "../../components/Pagination";
 import Logo from "../../assets/headers.png";
-import { Button } from "@mui/material";
 import { useState } from "react";
 
 
@@ -37,14 +36,14 @@ export const Movei = () => {
         }
 
         return (
-            <Button
+            <Styled.ButtonMovie
                 key={genere?.id}
                 onClick={() => SubmitButton(genere?.id)}
                 name={genere?.id}
                 variant="contained"
                 color="secondary"
             >{genere?.name}
-            </Button>)
+            </Styled.ButtonMovie>)
     })
 
     return (
@@ -78,4 +77,3 @@ export const Movei = () => {
         </Styled.ContainerMovei>
     )
 }
-

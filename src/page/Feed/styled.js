@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import * as colors from "../../constants/colors";
+import { Button } from "@mui/material";
 
 export const ContainerMovei = styled.div`
 width: 99.88%;
@@ -21,9 +22,12 @@ export const ContainerNav = styled.div`
     width: 100%;
     height: 24rem;
     margin-top: -1%;
-    border: solid 1px green;
     background-color: ${colors.primary};
-    border: solid 1px green;
+
+     @media  screen and (min-width: 320px) and (max-width: 500px){
+        width: 100%;
+        height: 32rem;
+    }
 `
 
 export const Descripitontext = styled.div`
@@ -37,11 +41,11 @@ export const Descripitontext = styled.div`
 
     @media  screen and (min-width: 320px) and (max-width: 650px){
         h1 {
-         display: flex;
+        display: flex;
         justify-content: end;
         color: white;
         font-family: Roboto;
-         font-size: 1.1em;
+        font-size: 1.1em;
     }
     }
 `
@@ -82,4 +86,14 @@ background-color: ${colors.secondary};
 export const LogoImg = styled.img`
 width: 15%;
 margin-left: 4.5rem;
+`
+
+export const ButtonMovie = styled(Button)`
+
+    && {
+        margin: 8px 7px 0px 0px;
+        &:focus {
+        background-color: ${'#000'};
+    }
+    }
 `

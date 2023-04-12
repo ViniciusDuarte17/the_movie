@@ -31,6 +31,7 @@ export const Title = styled.h2`
     font-size: 1.4rem;
     margin-left: 0.7rem;
     margin-top: 0.5rem;
+    flex-wrap: wrap;
 `
 export const Img = styled.img`
     width: 100%;
