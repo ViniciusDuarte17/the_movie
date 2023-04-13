@@ -12,9 +12,9 @@ export function PaginationControlled() {
   };
 
   return (
-    <Stack spacing={1}>
-      <Typography>Page: {page}</Typography>
-      <Pagination count={page + 10} page={page} onChange={handleChange} />
+    <Stack color={'secondary'} spacing={1}>
+      <Typography>Página: {page}</Typography>
+      <Pagination color='secondary' count={page + 10} page={page} onChange={handleChange} />
     </Stack>
   );
 }
